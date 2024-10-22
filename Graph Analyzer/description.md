@@ -4,17 +4,17 @@
 - read <file name>
     - 我們實做的是無向圖（Undirected Graph），並且每個邊都會有對應的權重（Weight）
     - 讀取定義 Graph 的檔案，這個檔案的第一行是一個數字，表示總共有幾個 Vertex，緊接著一個二維陣列 使用 Adjacency Matrix 表示 Graph 的 Vertex 和 Edge 的關係
-    - M[i, j] 代表 V{i} 和 V{j} 之間 Edge 的權重（Weight）
+    - M[i, j] 代表 V<sub>i</sub> 和 V<sub>j</sub> 之間 Edge 的權重（Weight）
     - Example File
 
-        5
-        0 5 4 0 1
-        5 0 7 2 1
-        4 7 0 3 3
-        0 2 3 0 6
-        1 1 3 6 0
+        5<br>
+        0 &nbsp;5 &nbsp;4 &nbsp;0 &nbsp;1<br>
+        5 &nbsp;0 &nbsp;7 &nbsp;2 &nbsp;1<br>
+        4 &nbsp;7 &nbsp;0 &nbsp;3 &nbsp;3<br>
+        0 &nbsp;2 &nbsp;3 &nbsp;0 &nbsp;6<br>
+        1 &nbsp;1 &nbsp;3 &nbsp;6 &nbsp;0<br>
 - minpath <v1> <v2>
-    - 計算 V{1}和 V{2}之間的最短路徑的距離，輸出為一個自然數 
+    - 計算 V<sub>1</sub>和 V<sub>2</sub>之間的最短路徑的距離，輸出為一個自然數 
 - mst
     - 輸出 Graph 的 Minimal-Spanning Tree 的所有 edge 的 weighted-sum
     - 輸出為一個自然數 
